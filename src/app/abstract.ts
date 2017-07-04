@@ -1,4 +1,5 @@
  
+//abstract class and its member functions definition
 export abstract class Department{
 
 
@@ -14,6 +15,7 @@ abstract printMeeting():void;
 
 }
 
+//first class that extends abstract class 
 export class AccountingDepartment extends Department {
 
     constructor(){
@@ -28,6 +30,7 @@ export class AccountingDepartment extends Department {
     }
 }
 
+//Second class that extends abstract class 
 export class ComputerScienceDepartment extends Department {
 
     constructor(){
